@@ -32,7 +32,7 @@
   
   /* Style the navigation bar links */
   .navbar a {
-    float: left;
+    float: middle;
     display: block;
     color: white;
     text-align: center;
