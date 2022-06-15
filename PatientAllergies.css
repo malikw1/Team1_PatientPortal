@@ -6,6 +6,7 @@
   body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    text-align: center;
   }
   
   /* Header/logo Title */
@@ -20,22 +21,7 @@
   .header h1 {
     font-size: 40px;
   }
-  
-  /* Column container */
-  .row {  
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-  }
-  
-  /* Main column */
-  .main {   
-    -ms-flex: 70%; /* IE10 */
-    flex: 70%;
-    background-color: white;
-    padding: 20px;
-  }
+
   
   /* Footer */
   .footer {
@@ -58,4 +44,29 @@
     text-align: center;
     justify-content: center;
     border-radius: 5px;
+  }
+
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: darkblue;
+    color: white;
+  }
+  
+  .next {
+    background-color: darkblue;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
   }

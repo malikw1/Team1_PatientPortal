@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+<title>Patient Info</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <body>
+        
+        <div class="header">
+            <h1> Patient Tracker </h1>
+            <p>A <b>responsive</b> website created by Team 1.</p>
+          </div>
+
+          <link rel="stylesheet" href="PatientInfo.css">
+        
+        <h4>
+            New Patient Registration <br>
+            <em> Please fill out the following form below. </em>
+        </h4>
+        
+        <br>
+        
+        <h4>
+            Name:
+        </h4>
+          <div class="form-group">
+        
+            <input type="firstname" 
+                   class="form-control" 
+                   id="inputfirstname" 
+                   placeholder="First Name">
+        
+            <input type="lastname" 
+                   class="form-control" 
+                   id="inputlastname" 
+                   placeholder="Last Name">
+        
+            <br>
+        
+            <br>
+        
+            <h4>
+                Gender:
+            </h4>
+        
+            <input type="gender" 
+                   class="form-control" 
+                   id="inputgender" 
+                   placeholder="(M or F)">
+        
+            <br>
+        
+            <br>
+
+            <h4>
+                Contact Information:
+            </h4>
+              
+        <input type="phone" 
+                         class="form-control" 
+                         id="inputphonenumber" 
+                         placeholder="Phone Number">
+              
+        <input type="email" 
+                         class="form-control" 
+                         id="inputemail" 
+                         placeholder="Email">
+            <br>
+
+            <br>
+        
+            <h4>
+                Date of Birth:
+            </h4>
+        
+            <form action="PatientAddress.html">
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday">
+                <input type="submit">
+            </form>
+
+              <br>
+
+            <a href="HomePage.html" class="previous round">&#8249;</a>
+            <a href="PatientAddress.html" class="next round">&#8250;</a>
+
+            <br>
+
+            <br>
+
+            <br>
+
+            <br>
+
+            <br>
+
+
+
+    </body>
+
+    <div id="footer"> Group 1 &copy; 2022 </div>
+
+</head>
+
+<style>
+    #footer {
+        position: fixed;
+        padding: 10px 10px 0px 10px;
+        bottom: 0;
+        width: 100%;
+        /* Height of the footer*/ 
+        height: 40px;
+        background:darkblue;
+        text-align: center;
+    }
+  </style>
